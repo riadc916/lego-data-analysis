@@ -1,16 +1,14 @@
-# lego-data-analysis
-
 # LEGO Data Analysis
 
-Daytoy a proyekto ket maipanggep iti panagusig ken visualisasion ti datos ti LEGO manipud kadagiti nadumaduma a CSV file (kas iti `sets.csv` ken `themes.csv`).
+An exploratory data analysis project investigating LEGO sets and themes across different decades using Pandas and Matplotlib.
 
-## Dagiti Naaramid
-- Panangsukimat kadagiti relational database concepts (Primary Key ken Foreign Key).
-- Panangusar ti Pandas para iti panang-filter, aggregation (`groupby`, `value_counts`), ken panangpagkaykaysa kadagiti DataFrame babaen ti `.merge()`.
-- Panagpartuat kadagiti graph ken chart (kas iti scatter plot ken bar chart) babaen ti Matplotlib tapno makita dagiti kapipintasan ken kadakkelan a tema ti LEGO.
+## Key Highlights & Analysis
+- **Relational Schema Understanding:** Connected relational tables (`sets.csv` and `themes.csv`) using Primary and Foreign Key concepts.
+- **Data Manipulation with Pandas:** Performed aggregation, value counts, and multi-table merging via `pd.merge()`.
+- **Trends Over Time:** Analyzed how set sizes, complexity, and theme diversity evolved year over year.
+- **Data Visualization:** Built customized scatter plots with dual axes and bar charts to display the top licensed and in-house themes.
 
-## Dagiti Nausar a Teknolohia
-- Python
-- Pandas
-- Matplotlib
-- Google Colab / Jupyter Notebook
+## Tech Stack
+- **Language:** Python
+- **Libraries:** Pandas, Matplotlib
+- **Environment:** Google Colab
